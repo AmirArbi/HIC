@@ -3,6 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HIC.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Style TargetType="Button" x:Key="Primary button">
+                <Setter Property="Background" Value="#23408E"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="CornerRadius" Value="17.5"></Setter>
+                <Setter Property="HeightRequest" Value="35"></Setter>
+                <Setter Property="BorderColor" Value="#23408E"></Setter>
+                <Setter Property="BorderWidth" Value="1"></Setter>
+                <Setter Property="FontFamily" Value=""></Setter>
+                
+            </Style>
+            <Style TargetType="Button" x:Key="Secondary button">
+                <Setter Property="Background" Value="White"></Setter>
+                <Setter Property="TextColor" Value="#23408E"></Setter>
+                <Setter Property="CornerRadius" Value="17.5"></Setter>
+                <Setter Property="HeightRequest" Value="35"></Setter>
+                <Setter Property="BorderColor" Value="#23408E"></Setter>
+                <Setter Property="BorderWidth" Value="1"></Setter>
+                <Setter Property="FontFamily" Value=""></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups" >
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property=""></Setter>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

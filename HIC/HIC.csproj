@@ -17,4 +17,13 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="2.3.0.759" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Common\" />
+    <Folder Include="Services\" />
+    <Folder Include="View models\" />
+    <Folder Include="Views\Doctor\" />
+    <Folder Include="Views\Patient\" />
+  </ItemGroup>
 </Project>
