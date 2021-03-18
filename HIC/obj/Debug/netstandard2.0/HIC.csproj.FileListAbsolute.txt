@@ -1,0 +1,14 @@
+E:\amir\xamarin projects\HIC\HIC\HIC\bin\Debug\netstandard2.0\HIC.deps.json
+E:\amir\xamarin projects\HIC\HIC\HIC\bin\Debug\netstandard2.0\HIC.dll
+E:\amir\xamarin projects\HIC\HIC\HIC\bin\Debug\netstandard2.0\ref\HIC.dll
+E:\amir\xamarin projects\HIC\HIC\HIC\bin\Debug\netstandard2.0\HIC.pdb
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\HIC.csprojAssemblyReference.cache
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\HIC.AssemblyInfoInputs.cache
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\HIC.AssemblyInfo.cs
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\HIC.csproj.CoreCompileInputs.cache
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\XamlC.stamp
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\HIC.dll
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\ref\HIC.dll
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\HIC.pdb
