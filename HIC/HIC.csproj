@@ -23,7 +23,12 @@
     <Folder Include="Common\" />
     <Folder Include="Services\" />
     <Folder Include="View models\" />
-    <Folder Include="Views\Doctor\" />
     <Folder Include="Views\Patient\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\Doctor\History.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

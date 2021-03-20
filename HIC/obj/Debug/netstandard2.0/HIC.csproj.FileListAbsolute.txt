@@ -12,3 +12,18 @@ E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\XamlC.stamp
 E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\HIC.dll
 E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\ref\HIC.dll
 E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\HIC.pdb
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\HIC.csprojAssemblyReference.cache
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Doctor\History.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\HIC.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\HIC.AssemblyInfo.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\HIC.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\HIC.dll
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\ref\HIC.dll
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\HIC.pdb
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\bin\Debug\netstandard2.0\HIC.deps.json
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\bin\Debug\netstandard2.0\HIC.dll
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\bin\Debug\netstandard2.0\ref\HIC.dll
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\bin\Debug\netstandard2.0\HIC.pdb
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\XamlC.stamp

@@ -4,36 +4,57 @@
              x:Class="HIC.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Style TargetType="Button" x:Key="Primary button">
+            <Style TargetType="Button" x:Key="PrimaryButton">
                 <Setter Property="Background" Value="#23408E"></Setter>
                 <Setter Property="TextColor" Value="White"></Setter>
-                <Setter Property="CornerRadius" Value="17.5"></Setter>
+                <Setter Property="CornerRadius" Value="17"></Setter>
                 <Setter Property="HeightRequest" Value="35"></Setter>
                 <Setter Property="BorderColor" Value="#23408E"></Setter>
                 <Setter Property="BorderWidth" Value="1"></Setter>
                 <Setter Property="FontFamily" Value=""></Setter>
                 
             </Style>
-            <Style TargetType="Button" x:Key="Secondary button">
-                <Setter Property="Background" Value="White"></Setter>
-                <Setter Property="TextColor" Value="#23408E"></Setter>
-                <Setter Property="CornerRadius" Value="17.5"></Setter>
-                <Setter Property="HeightRequest" Value="35"></Setter>
-                <Setter Property="BorderColor" Value="#23408E"></Setter>
-                <Setter Property="BorderWidth" Value="1"></Setter>
-                <Setter Property="FontFamily" Value=""></Setter>
-                <Setter Property="VisualStateManager.VisualStateGroups" >
+            <Style TargetType="Button" x:Key="SecondaryButton">
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="TextColor" Value="#23408E"/>
+                <Setter Property="CornerRadius" Value="17"/>
+                <Setter Property="HeightRequest" Value="35"/>
+                <Setter Property="BorderColor" Value="#23408E"/>
+                <Setter Property="BorderWidth" Value="1"/>
+                <Setter Property="FontFamily" Value="Monteserrat"/>
+                <!--<Setter Property="VisualStateManager.VisualStateGroups" >
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
                             <VisualState x:Name="Disabled">
                                 <VisualState.Setters>
-                                    <Setter Property=""></Setter>
+                                    
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
                     </VisualStateGroupList>
-                </Setter>
+                </Setter>-->
             </Style>
+            <Style TargetType="Label" x:Key="Primary">
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="TextColor" Value="#385399"/>
+                <Setter Property="FontFamily" Value="Monteserrat"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="CharacterSpacing" Value="-0.05"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="Paragraph">
+                <Setter Property="FontSize" Value="7"/>
+                <Setter Property="FontFamily" Value="Monteserrat"/>
+                <Setter Property="LineHeight" Value="1"/>
+                <Setter Property="CharacterSpacing" Value="-0.05"/>
+            </Style>
+            <Style TargetType="Label" BaseResourceKey="Paragraph" x:Key="BoldParagraph">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="LineBreakMode" Value="WordWrap"/>
+                <Setter Property="MaxLines" Value="1"/>
+            </Style>
+             
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

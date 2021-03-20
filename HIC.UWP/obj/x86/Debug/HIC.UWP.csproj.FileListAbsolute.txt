@@ -61,3 +61,5 @@ E:\amir\xamarin projects\HIC\HIC\HIC.UWP\obj\x86\Debug\MultipleQualifiersPerDime
 E:\amir\xamarin projects\HIC\HIC\HIC.UWP\obj\x86\Debug\ProjectArchitectures.txt
 E:\amir\xamarin projects\HIC\HIC\HIC.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160679180000000.json
 E:\amir\xamarin projects\HIC\HIC\HIC.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC.UWP\obj\x86\Debug\HIC.UWP.exe
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC.UWP\obj\x86\Debug\HIC.UWP.pdb
