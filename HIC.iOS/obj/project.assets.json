@@ -1632,18 +1632,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {},
+    "C:\\Users\\amira\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilisateur\\source\\repos\\AmirArbi\\HIC\\HIC.iOS\\HIC.iOS.csproj",
+      "projectUniqueName": "E:\\amir\\xamarin projects\\HIC\\HIC\\HIC.iOS\\HIC.iOS.csproj",
       "projectName": "HIC.iOS",
-      "projectPath": "C:\\Users\\Utilisateur\\source\\repos\\AmirArbi\\HIC\\HIC.iOS\\HIC.iOS.csproj",
-      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilisateur\\source\\repos\\AmirArbi\\HIC\\HIC.iOS\\obj\\",
+      "projectPath": "E:\\amir\\xamarin projects\\HIC\\HIC\\HIC.iOS\\HIC.iOS.csproj",
+      "packagesPath": "C:\\Users\\amira\\.nuget\\packages\\",
+      "outputPath": "E:\\amir\\xamarin projects\\HIC\\HIC\\HIC.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1651,7 +1651,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\amira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1666,8 +1666,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Utilisateur\\source\\repos\\AmirArbi\\HIC\\HIC\\HIC.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\source\\repos\\AmirArbi\\HIC\\HIC\\HIC.csproj"
+            "E:\\amir\\xamarin projects\\HIC\\HIC\\HIC\\HIC.csproj": {
+              "projectPath": "E:\\amir\\xamarin projects\\HIC\\HIC\\HIC\\HIC.csproj"
             }
           }
         }

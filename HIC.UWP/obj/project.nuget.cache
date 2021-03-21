@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c4riUAiIqWVi/76j9sVMdjFx7tBDS/Bl0iI29cj3LtVyhQoJmzRHoK03GkX7+R8THyuknkzmdFFA0oxzI5ZcGw==",
+  "dgSpecHash": "PjHSSrYIPZJIBMcoogsw0N2RKTpiip6kURkSD0RQ/9gddodpNDU3XgZ00W4MtLzVvD4ZI+J9zn3dhvXW9X7D3A==",
   "success": true,
   "projectFilePath": "E:\\amir\\xamarin projects\\HIC\\HIC\\HIC.UWP\\HIC.UWP.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\amira\\.nuget\\packages\\microsoft.ui.xaml\\2.4.3\\microsoft.ui.xaml.2.4.3.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\amira\\.nuget\\packages\\plugin.fingerprint\\2.1.3\\plugin.fingerprint.2.1.3.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\runtime.aot.system.runtime\\4.3.0\\runtime.aot.system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
@@ -44,7 +45,9 @@
     "C:\\Users\\amira\\.nuget\\packages\\xamarin.communitytoolkit\\1.0.3\\xamarin.communitytoolkit.1.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
-    "C:\\Users\\amira\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
+    "C:\\Users\\amira\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
+    "C:\\Users\\amira\\.nuget\\packages\\zxing.net.mobile\\3.0.0-beta5\\zxing.net.mobile.3.0.0-beta5.nupkg.sha512",
+    "C:\\Users\\amira\\.nuget\\packages\\zxing.net.mobile.forms\\3.0.0-beta5\\zxing.net.mobile.forms.3.0.0-beta5.nupkg.sha512"
   ],
   "logs": []
 }

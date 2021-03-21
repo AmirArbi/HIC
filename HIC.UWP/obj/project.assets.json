@@ -248,6 +248,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Plugin.Fingerprint/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -501,15 +510,47 @@
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "HIC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Fingerprint": "2.1.3",
           "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.PancakeView": "2.3.0.759"
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/HIC.dll": {}
@@ -765,6 +806,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
         }
       },
       "runtime.any.System.Runtime/4.3.0": {
@@ -1208,15 +1258,47 @@
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "HIC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Fingerprint": "2.1.3",
           "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.PancakeView": "2.3.0.759"
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/HIC.dll": {}
@@ -1472,6 +1554,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
         }
       },
       "runtime.aot.System.Runtime/4.3.0": {
@@ -1916,15 +2007,47 @@
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "HIC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Fingerprint": "2.1.3",
           "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.PancakeView": "2.3.0.759"
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/HIC.dll": {}
@@ -2180,6 +2303,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
         }
       },
       "runtime.aot.System.Runtime/4.3.0": {
@@ -2621,15 +2753,47 @@
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "HIC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Fingerprint": "2.1.3",
           "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.PancakeView": "2.3.0.759"
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/HIC.dll": {}
@@ -2885,6 +3049,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
         }
       },
       "runtime.any.System.Runtime/4.3.0": {
@@ -3328,15 +3501,47 @@
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "HIC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Fingerprint": "2.1.3",
           "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.PancakeView": "2.3.0.759"
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/HIC.dll": {}
@@ -3592,6 +3797,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
         }
       },
       "runtime.aot.System.Runtime/4.3.0": {
@@ -4036,15 +4250,47 @@
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "HIC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Fingerprint": "2.1.3",
           "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.PancakeView": "2.3.0.759"
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/HIC.dll": {}
@@ -4300,6 +4546,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
         }
       },
       "runtime.any.System.Runtime/4.3.0": {
@@ -4743,15 +4998,47 @@
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "HIC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Fingerprint": "2.1.3",
           "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.PancakeView": "2.3.0.759"
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/HIC.dll": {}
@@ -5007,6 +5294,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.Fingerprint.dll": {}
         }
       },
       "runtime.aot.System.Runtime/4.3.0": {
@@ -5451,15 +5747,47 @@
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {}
         }
       },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXingNetMobile.dll": {},
+          "lib/uap10.0.16299/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll": {}
+        }
+      },
       "HIC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Fingerprint": "2.1.3",
           "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.PancakeView": "2.3.0.759"
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "compile": {
           "bin/placeholder/HIC.dll": {}
@@ -6056,6 +6384,47 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Plugin.Fingerprint/2.1.3": {
+      "sha512": "aiBz9NObLDwyV2Ecq6ijcntzBGL4E3Y/NQKSys/V99l+lNuTCcMvnaq9IjwPsEhmBXnaTSt72gPO+jzPijpu7w==",
+      "type": "package",
+      "path": "plugin.fingerprint/2.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/Plugin.Fingerprint.dll",
+        "lib/monoandroid90/Plugin.Fingerprint.pdb",
+        "lib/monoandroid90/Plugin.Fingerprint.xml",
+        "lib/net45/Plugin.Fingerprint.dll",
+        "lib/net45/Plugin.Fingerprint.pdb",
+        "lib/net45/Plugin.Fingerprint.xml",
+        "lib/netstandard2.0/Plugin.Fingerprint.dll",
+        "lib/netstandard2.0/Plugin.Fingerprint.pdb",
+        "lib/netstandard2.0/Plugin.Fingerprint.xml",
+        "lib/tizen40/Plugin.Fingerprint.dll",
+        "lib/tizen40/Plugin.Fingerprint.pdb",
+        "lib/tizen40/Plugin.Fingerprint.xml",
+        "lib/uap10.0.16299/Plugin.Fingerprint.dll",
+        "lib/uap10.0.16299/Plugin.Fingerprint.pdb",
+        "lib/uap10.0.16299/Plugin.Fingerprint.pri",
+        "lib/uap10.0.16299/Plugin.Fingerprint.xml",
+        "lib/xamarinios10/Plugin.Fingerprint.dll",
+        "lib/xamarinios10/Plugin.Fingerprint.pdb",
+        "lib/xamarinios10/Plugin.Fingerprint.xml",
+        "lib/xamarinmac20/Plugin.Fingerprint.dll",
+        "lib/xamarinmac20/Plugin.Fingerprint.pdb",
+        "lib/xamarinmac20/Plugin.Fingerprint.xml",
+        "lib/xamarintvos10/Plugin.Fingerprint.dll",
+        "lib/xamarintvos10/Plugin.Fingerprint.pdb",
+        "lib/xamarintvos10/Plugin.Fingerprint.xml",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.dll",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.pdb",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.xml",
+        "plugin.fingerprint.2.1.3.nupkg.sha512",
+        "plugin.fingerprint.nuspec",
+        "readme.txt",
+        "xamarin_fingerprint.png"
       ]
     },
     "runtime.any.System.Runtime/4.3.0": {
@@ -10753,6 +11122,69 @@
         "lib/xamarinmac20/Xamarin.Forms.PancakeView.xml",
         "xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
         "xamarin.forms.pancakeview.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile/3.0.0-beta5": {
+      "sha512": "xlRphSYEiCc62vIcaX22z46kLnyLVqzYXuUk1aOtvtn8ZOLfQPuS43p73B1c/VLNnDbwrvZ+LhN2MGoxU+lWBg==",
+      "type": "package",
+      "path": "zxing.net.mobile/3.0.0-beta5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid10.0/ZXingNetMobile.dll",
+        "lib/monoandroid10.0/ZXingNetMobile.pdb",
+        "lib/monoandroid10.0/zxing.dll",
+        "lib/monoandroid90/ZXingNetMobile.dll",
+        "lib/monoandroid90/ZXingNetMobile.pdb",
+        "lib/monoandroid90/zxing.dll",
+        "lib/netstandard2.0/ZXingNetMobile.dll",
+        "lib/netstandard2.0/ZXingNetMobile.pdb",
+        "lib/netstandard2.0/zxing.dll",
+        "lib/tizen40/ZXingNetMobile.dll",
+        "lib/tizen40/ZXingNetMobile.pdb",
+        "lib/tizen40/zxing.dll",
+        "lib/uap10.0.16299/ZXingNetMobile.dll",
+        "lib/uap10.0.16299/ZXingNetMobile.pdb",
+        "lib/uap10.0.16299/ZXingNetMobile.pri",
+        "lib/uap10.0.16299/ZXingNetMobile/ScanPage.xaml",
+        "lib/uap10.0.16299/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/uap10.0.16299/ZXingNetMobile/ZXingScannerControl.xaml",
+        "lib/uap10.0.16299/zxing.dll",
+        "lib/xamarinios10/ZXingNetMobile.dll",
+        "lib/xamarinios10/ZXingNetMobile.pdb",
+        "lib/xamarinios10/zxing.dll",
+        "lib/xamarinmac20/ZXingNetMobile.dll",
+        "lib/xamarinmac20/ZXingNetMobile.pdb",
+        "lib/xamarinmac20/zxing.dll",
+        "zxing.net.mobile.3.0.0-beta5.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+      "sha512": "T7V68m6c19KIjZnr59V9VxD6MW/r9VMrd5QD+JJPPEsedszFDAu0w7MkwxJHOsarHef6rTRBBHFrLe+QWDOG0w==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/3.0.0-beta5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid10.0/ZXing.Net.Mobile.Forms.dll",
+        "lib/monoandroid10.0/ZXing.Net.Mobile.Forms.pdb",
+        "lib/monoandroid90/ZXing.Net.Mobile.Forms.dll",
+        "lib/monoandroid90/ZXing.Net.Mobile.Forms.pdb",
+        "lib/netstandard2.0/ZXing.Net.Mobile.Forms.dll",
+        "lib/netstandard2.0/ZXing.Net.Mobile.Forms.pdb",
+        "lib/tizen40/ZXing.Net.Mobile.Forms.dll",
+        "lib/tizen40/ZXing.Net.Mobile.Forms.pdb",
+        "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll",
+        "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.pdb",
+        "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll",
+        "lib/xamarinios10/ZXing.Net.Mobile.Forms.pdb",
+        "lib/xamarinmac20/ZXing.Net.Mobile.Forms.dll",
+        "lib/xamarinmac20/ZXing.Net.Mobile.Forms.pdb",
+        "zxing.net.mobile.forms.3.0.0-beta5.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
       ]
     },
     "HIC/1.0.0": {
