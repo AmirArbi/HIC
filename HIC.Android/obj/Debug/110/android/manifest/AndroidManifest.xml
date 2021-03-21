@@ -11,6 +11,8 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+  <uses-permission android:name="android.permission.USE_BIOMETRIC" />
   <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="HIC.Android" android:theme="@style/MainTheme">
     <activity android:name="crc6451fdeda16b9bbe1b.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="HIC" android:theme="@style/MainTheme">
       <intent-filter>
@@ -37,5 +39,6 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.hic" />
       </intent-filter>
     </receiver>
+    <activity android:name="androidx.biometric.DeviceCredentialHandlerActivity" android:exported="true" android:theme="@style/DeviceCredentialHandlerTheme" />
   </application>
 </manifest>

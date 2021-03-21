@@ -23,17 +23,14 @@
                 <Setter Property="CharacterSpacing" Value="-0.05"/>
                 <Setter Property="LineHeight" Value="0.5"/>
             </Style>
-            <Style TargetType="Label" x:Key="Dates">
-                <Setter Property="TextColor" Value="#23408E"/>
-                <Setter Property="FontFamily" Value="Monteserrat"/>
-                <Setter Property="FontSize" Value="9"/>
-                <Setter Property="CharacterSpacing" Value="-0.05"/>
-                <Setter Property="VerticalOptions" Value="Center"/>
-            </Style>
+
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout Padding="20">
+        <Grid>
+            <Label Text="&#xe807;" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
+            <Label Text="&#xe807;" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="-27" Style="{StaticResource Dates}" Margin="-80,0,0,0" HorizontalOptions="Start" VerticalOptions="End"/>
+            <StackLayout Padding="20,20,20,0">
             <StackLayout Padding="10,0">
                 <StackLayout Orientation="Horizontal">
                     <Label Text="History" Style="{StaticResource Primary}" HorizontalOptions="StartAndExpand"/>
@@ -52,10 +49,15 @@
                             <Label Text="Houssem" Style="{StaticResource Name}"/>
                             <Label Text="Hassou" Style="{StaticResource Name}" />
                         </StackLayout>
-                        <Label Text="&#xe805;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
-                        <Label Text="12/08/2030" Style="{StaticResource Dates}"/>
-                        <Label Text="&#xe807;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
-                        <Label Text="18:15" Style="{StaticResource Dates}"/>
+                        <StackLayout Spacing="0">
+                            <Label Text="&#xe805;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
+                            <Label Text="12/08/2030" Style="{StaticResource Dates}"/>
+                        </StackLayout>
+                        <StackLayout Spacing="0">
+                            <Label Text="&#xe807;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
+                            <Label Text="18:15" Style="{StaticResource Dates}"/>
+                        </StackLayout>
+                        
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="15">
                         <!--Fix tf is this-->
@@ -97,17 +99,17 @@
                             <Label Text="Houssem" Style="{StaticResource Name}"/>
                             <Label Text="Hassou" Style="{StaticResource Name}" />
                         </StackLayout>
-                        <Label Text="&#xe805;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
-                        <Label Text="12/08/2030" Style="{StaticResource Dates}"/>
                         <Label Text="&#xe807;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
+                        <Label Text="12/08/2030" Style="{StaticResource Dates}"/>
+                        <Label Text="&#xe805;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
                         <Label Text="18:15" Style="{StaticResource Dates}"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="15">
                         <!--Fix tf is this-->
-                        <!--<Frame CornerRadius="100" HeightRequest="80" WidthRequest="220" VerticalOptions="CenterAndExpand" Padding="0">
+                        <!--<Frame Corne Radius="100" HeightRequest="80" WidthRequest="220" VerticalOptions="CenterAndExpand" Padding="0">
                             <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
                         </Frame>-->
-                        <pv:PancakeView CornerRadius="100" WidthRequest="100" BackgroundColor="Red" HorizontalOptions="FillAndExpand">
+                        <pv:PancakeView CornerRadius="100" WidthRequest="100" HorizontalOptions="FillAndExpand">
                             <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
                         </pv:PancakeView>
                         <pv:PancakeView CornerRadius="6,0,6,0" BackgroundColor="#23408E" Padding="10,15" HorizontalOptions="FillAndExpand">
@@ -152,7 +154,7 @@
                                 <!--<Frame CornerRadius="100" HeightRequest="80" WidthRequest="220" VerticalOptions="CenterAndExpand" Padding="0">
                             <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
                         </Frame>-->
-                                <pv:PancakeView CornerRadius="100" WidthRequest="100" BackgroundColor="Red" HorizontalOptions="FillAndExpand">
+                                <pv:PancakeView CornerRadius="100" WidthRequest="100" HorizontalOptions="FillAndExpand">
                                     <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
                                 </pv:PancakeView>
                                 <pv:PancakeView CornerRadius="6,0,6,0" BackgroundColor="#23408E" Padding="10,15" HorizontalOptions="FillAndExpand">
@@ -183,5 +185,6 @@
                 </StackLayout>
             </ScrollView>
         </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

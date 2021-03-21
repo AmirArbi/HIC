@@ -52,8 +52,14 @@
                 <Setter Property="MaxLines" Value="1"/>
                 <Setter Property="FontFamily" Value="Mont-800"/>
             </Style>
-            
-            
+            <Style TargetType="Label" x:Key="Dates">
+                <Setter Property="TextColor" Value="#23408E"/>
+                <Setter Property="FontFamily" Value="Monteserrat"/>
+                <Setter Property="FontSize" Value="9"/>
+                <Setter Property="CharacterSpacing" Value="-0.05"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

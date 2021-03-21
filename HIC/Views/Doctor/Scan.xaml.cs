@@ -1,5 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Plugin.Fingerprint;
+using Plugin.Fingerprint.Abstractions;
 
 namespace HIC.Views.Doctor
 {
@@ -9,7 +11,7 @@ namespace HIC.Views.Doctor
         public Scan()
         {
             InitializeComponent();
-           
+            
         }
         protected override void OnSizeAllocated(double width, double height)
         {
@@ -34,12 +36,35 @@ namespace HIC.Views.Doctor
             {
                 if(result.BarcodeFormat == ZXing.BarcodeFormat.QR_CODE)
                 {
-                    scanner.IsScanning = false;
-                    await DisplayAlert("Success", result.Text, "Done");
-                    scanner.IsScanning = true;
+                    Invert();
                 }
 
             });
+        }
+
+        private async void TapGestureRecognizer_Tapped(object sender, System.EventArgs e)
+        {
+            var request = new AuthenticationRequestConfiguration("Verify your identity", "We need to verify if you are the right person to access the data");
+            var finger = await CrossFingerprint.Current.AuthenticateAsync(request);
+            if (finger.Authenticated)
+            {
+                await DisplayAlert("Success", "You successfully identifiated yourself", "Done");
+            }
+            else
+            {
+                await DisplayAlert("Error", finger.ErrorMessage, "Done");
+            }
+
+        }
+
+        private void Button_Clicked(object sender, System.EventArgs e)
+        {
+            Invert();
+        }
+        void Invert()
+        {
+            verification.IsVisible = !verification.IsVisible;
+            scanner.IsScanning = !scanner.IsScanning;
         }
     }
 }

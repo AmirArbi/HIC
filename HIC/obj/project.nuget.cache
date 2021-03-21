@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oPezeGJa70rVLo6jStLBRMunGZnCTCn/VxbVCPOOhruBnZ6s5BJi992r1/pTCFAJBp5Gu+TOWeFnFH5wMyr76g==",
+  "dgSpecHash": "A7VCnasxhhMM7bvuZw+Aebcx2V9c44v3j0KCVDUvUy1O2URNC/npQGmB5PU6A8zDL4oA30E7lX/Y5We4AuzsJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Utilisateur\\source\\repos\\AmirArbi\\HIC\\HIC\\HIC.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Utilisateur\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\plugin.fingerprint\\2.1.3\\plugin.fingerprint.2.1.3.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
