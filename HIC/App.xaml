@@ -4,24 +4,21 @@
              x:Class="HIC.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Style TargetType="Button" x:Key="PrimaryButton">
-                <Setter Property="Background" Value="#23408E"></Setter>
-                <Setter Property="TextColor" Value="White"></Setter>
-                <Setter Property="CornerRadius" Value="17"></Setter>
-                <Setter Property="HeightRequest" Value="35"></Setter>
-                <Setter Property="BorderColor" Value="#23408E"></Setter>
-                <Setter Property="BorderWidth" Value="1"></Setter>
-                <Setter Property="FontFamily" Value=""></Setter>
-                
-            </Style>
-            <Style TargetType="Button" x:Key="SecondaryButton">
-                <Setter Property="Background" Value="White"/>
-                <Setter Property="TextColor" Value="#23408E"/>
-                <Setter Property="CornerRadius" Value="17"/>
-                <Setter Property="HeightRequest" Value="35"/>
-                <Setter Property="BorderColor" Value="#23408E"/>
+            <Color x:Key="PrimaryColor">#23408E</Color>
+            <Style TargetType="Button" x:Key="BaseButton">
+                <Setter Property="BorderColor" Value="{StaticResource PrimaryColor}"/>
                 <Setter Property="BorderWidth" Value="1"/>
-                <Setter Property="FontFamily" Value="Monteserrat"/>
+                <Setter Property="CornerRadius" Value="17"/>
+                <Setter Property="FontFamily" Value="Mont-500"/>
+                <Setter Property="HeightRequest" Value="35"/>
+            </Style>
+            <Style TargetType="Button" x:Key="PrimaryButton" BaseResourceKey="BaseButton">
+                <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            <Style TargetType="Button" x:Key="SecondaryButton" BaseResourceKey="BaseButton">
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="TextColor" Value="{StaticResource PrimaryColor}"/>
                 <!--<Setter Property="VisualStateManager.VisualStateGroups" >
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
@@ -37,14 +34,15 @@
             <Style TargetType="Label" x:Key="Primary">
                 <Setter Property="FontSize" Value="24"/>
                 <Setter Property="TextColor" Value="#385399"/>
-                <Setter Property="FontFamily" Value="Monteserrat"/>
+                <Setter Property="FontFamily" Value="Mont-700"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="CharacterSpacing" Value="-0.05"/>
             </Style>
 
             <Style TargetType="Label" x:Key="Paragraph">
-                <Setter Property="FontSize" Value="7"/>
-                <Setter Property="FontFamily" Value="Monteserrat"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="9"/>
+                <Setter Property="FontFamily" Value="Mont-400"/>
                 <Setter Property="LineHeight" Value="1"/>
                 <Setter Property="CharacterSpacing" Value="-0.05"/>
             </Style>
@@ -52,8 +50,9 @@
                 <Setter Property="FontAttributes" Value="Bold"/>
                 <Setter Property="LineBreakMode" Value="WordWrap"/>
                 <Setter Property="MaxLines" Value="1"/>
+                <Setter Property="FontFamily" Value="Mont-800"/>
             </Style>
-             
+            
             
         </ResourceDictionary>
     </Application.Resources>
