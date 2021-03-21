@@ -62,7 +62,7 @@
                         <!--<Frame CornerRadius="100" HeightRequest="80" WidthRequest="220" VerticalOptions="CenterAndExpand" Padding="0">
                             <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
                         </Frame>-->
-                        <pv:PancakeView CornerRadius="100" WidthRequest="100" ]HorizontalOptions="FillAndExpand">
+                        <pv:PancakeView CornerRadius="100" WidthRequest="100" HorizontalOptions="FillAndExpand">
                             <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
                         </pv:PancakeView>
                         <pv:PancakeView CornerRadius="6,0,6,0" BackgroundColor="#23408E" Padding="10,15" HorizontalOptions="FillAndExpand">
