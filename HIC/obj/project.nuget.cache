@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Xi/VMf+MFNF88h9UXyn9vQGMcQT1PzOxPCwfZrOccCxoyFTNO6b5dzCDAfD0yEEHLtkiNWEZRSnR2DnBX5PXaA==",
+  "dgSpecHash": "oPezeGJa70rVLo6jStLBRMunGZnCTCn/VxbVCPOOhruBnZ6s5BJi992r1/pTCFAJBp5Gu+TOWeFnFH5wMyr76g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Utilisateur\\source\\repos\\AmirArbi\\HIC\\HIC\\HIC.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,9 @@
     "C:\\Users\\Utilisateur\\.nuget\\packages\\xamarin.communitytoolkit\\1.0.3\\xamarin.communitytoolkit.1.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\zxing.net.mobile\\3.0.0-beta5\\zxing.net.mobile.3.0.0-beta5.nupkg.sha512",
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\zxing.net.mobile.forms\\3.0.0-beta5\\zxing.net.mobile.forms.3.0.0-beta5.nupkg.sha512"
   ],
   "logs": []
 }

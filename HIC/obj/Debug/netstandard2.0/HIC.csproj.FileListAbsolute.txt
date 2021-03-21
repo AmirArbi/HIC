@@ -27,3 +27,4 @@ C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\bin\Debug\netstandard2.0\HIC.
 C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\bin\Debug\netstandard2.0\ref\HIC.dll
 C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\bin\Debug\netstandard2.0\HIC.pdb
 C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Doctor\Scan.xaml.g.cs

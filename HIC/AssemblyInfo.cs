@@ -6,4 +6,5 @@ using Xamarin.Forms;
 [assembly: ExportFont("Montserrat-ExtraBold.ttf", Alias = "Mont-800")]
 [assembly: ExportFont("Montserrat-Medium.ttf", Alias = "Mont-500")]
 [assembly: ExportFont("Montserrat-SemiBold.ttf", Alias = "Mont-600")]
+[assembly: ExportFont("fontello.ttf", Alias = "Fontello")]
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]

@@ -34,12 +34,16 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout Padding="20">
-            <StackLayout Orientation="Horizontal" Padding="10,0">
-                <Label Text="History" Style="{StaticResource Primary}" HorizontalOptions="StartAndExpand"/>
-                <Button Text="Filter >" Style="{StaticResource Filter}"/>
+            <StackLayout Padding="10,0">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="History" Style="{StaticResource Primary}" HorizontalOptions="StartAndExpand"/>
+                    <Button Text="Filter >" Style="{StaticResource Filter}"/>
+                </StackLayout>
+                <Entry ReturnType="Search" Placeholder="Search..."  HorizontalOptions="FillAndExpand" PlaceholderColor="LightGray"/>
             </StackLayout>
-            <Entry ReturnType="Search" Placeholder="Search..."  HorizontalOptions="FillAndExpand" PlaceholderColor="LightGray"/>
-            
+
+            <ScrollView>
+                <StackLayout>
             <!-- Card -->
             <Frame CornerRadius="12" BackgroundColor="White" HasShadow="True" Padding="20,10,0,5">
                 <StackLayout >
@@ -48,11 +52,9 @@
                             <Label Text="Houssem" Style="{StaticResource Name}"/>
                             <Label Text="Hassou" Style="{StaticResource Name}" />
                         </StackLayout>
-                        <!--Icon-->
-                        <Label Text="O"/>
+                        <Label Text="&#xe805;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
                         <Label Text="12/08/2030" Style="{StaticResource Dates}"/>
-                        <!--Icon-->
-                        <Label Text="O"/>
+                        <Label Text="&#xe807;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
                         <Label Text="18:15" Style="{StaticResource Dates}"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="15">
@@ -60,7 +62,7 @@
                         <!--<Frame CornerRadius="100" HeightRequest="80" WidthRequest="220" VerticalOptions="CenterAndExpand" Padding="0">
                             <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
                         </Frame>-->
-                        <pv:PancakeView CornerRadius="100" WidthRequest="300" BackgroundColor="Red" HorizontalOptions="FillAndExpand">
+                        <pv:PancakeView CornerRadius="100" WidthRequest="100" ]HorizontalOptions="FillAndExpand">
                             <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
                         </pv:PancakeView>
                         <pv:PancakeView CornerRadius="6,0,6,0" BackgroundColor="#23408E" Padding="10,15" HorizontalOptions="FillAndExpand">
@@ -81,14 +83,105 @@
                                 </StackLayout>
                             </StackLayout>
                         </pv:PancakeView>
-                        
+
                     </StackLayout>
                     <Button Text="See more" Style="{StaticResource SecondaryButton}" Padding="0" Margin="0,0,10,0" HeightRequest="18" FontSize="7" HorizontalOptions="End"/>
 
                 </StackLayout>
-                
-            </Frame>
 
+            </Frame>
+            <Frame CornerRadius="12" BackgroundColor="White" HasShadow="True" Padding="20,10,0,5">
+                <StackLayout >
+                    <StackLayout Orientation="Horizontal" Padding="0,0,20,0">
+                        <StackLayout HorizontalOptions="StartAndExpand" Spacing="0">
+                            <Label Text="Houssem" Style="{StaticResource Name}"/>
+                            <Label Text="Hassou" Style="{StaticResource Name}" />
+                        </StackLayout>
+                        <Label Text="&#xe805;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
+                        <Label Text="12/08/2030" Style="{StaticResource Dates}"/>
+                        <Label Text="&#xe807;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
+                        <Label Text="18:15" Style="{StaticResource Dates}"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="15">
+                        <!--Fix tf is this-->
+                        <!--<Frame CornerRadius="100" HeightRequest="80" WidthRequest="220" VerticalOptions="CenterAndExpand" Padding="0">
+                            <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
+                        </Frame>-->
+                        <pv:PancakeView CornerRadius="100" WidthRequest="100" BackgroundColor="Red" HorizontalOptions="FillAndExpand">
+                            <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
+                        </pv:PancakeView>
+                        <pv:PancakeView CornerRadius="6,0,6,0" BackgroundColor="#23408E" Padding="10,15" HorizontalOptions="FillAndExpand">
+                            <StackLayout Spacing="15">
+                                <StackLayout Orientation="Horizontal" Spacing="10">
+                                    <Label Text="Sex" Style="{StaticResource BoldParagraph}"/>
+                                    <Label Text="Male" Style="{StaticResource Paragraph}" MaxLines="1"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="10">
+                                    <Label Text="Cause" Style="{StaticResource BoldParagraph}"/>
+                                    <Label Text="Injury" Style="{StaticResource Paragraph}" MaxLines="1"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="10">
+                                    <StackLayout HorizontalOptions="End">
+                                        <Label Text="Details" Style="{StaticResource BoldParagraph}" LineBreakMode="NoWrap"/>
+                                    </StackLayout>
+                                    <Label Text="Lorem ipsum dolor sit amet,consectetuer adipiscing elit. adipiscing elit. Aenean commodo ligula eget..." Style="{StaticResource Paragraph}" MaxLines="2" HorizontalOptions="Start"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </pv:PancakeView>
+
+                    </StackLayout>
+                    <Button Text="See more" Style="{StaticResource SecondaryButton}" Padding="0" Margin="0,0,10,0" HeightRequest="18" FontSize="7" HorizontalOptions="End"/>
+
+                </StackLayout>
+
+            </Frame>
+                    <Frame CornerRadius="12" BackgroundColor="White" HasShadow="True" Padding="20,10,0,5">
+                        <StackLayout >
+                            <StackLayout Orientation="Horizontal" Padding="0,0,20,0">
+                                <StackLayout HorizontalOptions="StartAndExpand" Spacing="0">
+                                    <Label Text="Houssem" Style="{StaticResource Name}"/>
+                                    <Label Text="Hassou" Style="{StaticResource Name}" />
+                                </StackLayout>
+                                <Label Text="&#xe805;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
+                                <Label Text="12/08/2030" Style="{StaticResource Dates}"/>
+                                <Label Text="&#xe807;" FontFamily="Fontello" Style="{StaticResource Dates}"/>
+                                <Label Text="18:15" Style="{StaticResource Dates}"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Spacing="15">
+                                <!--Fix tf is this-->
+                                <!--<Frame CornerRadius="100" HeightRequest="80" WidthRequest="220" VerticalOptions="CenterAndExpand" Padding="0">
+                            <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
+                        </Frame>-->
+                                <pv:PancakeView CornerRadius="100" WidthRequest="100" BackgroundColor="Red" HorizontalOptions="FillAndExpand">
+                                    <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
+                                </pv:PancakeView>
+                                <pv:PancakeView CornerRadius="6,0,6,0" BackgroundColor="#23408E" Padding="10,15" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Spacing="15">
+                                        <StackLayout Orientation="Horizontal" Spacing="10">
+                                            <Label Text="Sex" Style="{StaticResource BoldParagraph}"/>
+                                            <Label Text="Male" Style="{StaticResource Paragraph}" MaxLines="1"/>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal" Spacing="10">
+                                            <Label Text="Cause" Style="{StaticResource BoldParagraph}"/>
+                                            <Label Text="Injury" Style="{StaticResource Paragraph}" MaxLines="1"/>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal" Spacing="10">
+                                            <StackLayout HorizontalOptions="End">
+                                                <Label Text="Details" Style="{StaticResource BoldParagraph}" LineBreakMode="NoWrap"/>
+                                            </StackLayout>
+                                            <Label Text="Lorem ipsum dolor sit amet,consectetuer adipiscing elit. adipiscing elit. Aenean commodo ligula eget..." Style="{StaticResource Paragraph}" MaxLines="2" HorizontalOptions="Start"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </pv:PancakeView>
+
+                            </StackLayout>
+                            <Button Text="See more" Style="{StaticResource SecondaryButton}" Padding="0" Margin="0,0,10,0" HeightRequest="18" FontSize="7" HorizontalOptions="End"/>
+
+                        </StackLayout>
+
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

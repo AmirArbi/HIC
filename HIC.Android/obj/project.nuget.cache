@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BTWHVhARvMBZvQ5R070tRqXofcSiLagYgr2ShetAM67gRYwWdMupk5gTCUcr6achSnkcnNLpws3kbczWbVm1+A==",
+  "dgSpecHash": "BukKdi6PiZjs5Gggrc/AdJQoBwD+J/A/JQf8+gDKedVqbbJQWzj1saH8kO2DFMAG6MTwfLpzRM6Y/3M5K6cYFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Utilisateur\\source\\repos\\AmirArbi\\HIC\\HIC.Android\\HIC.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
@@ -56,7 +57,9 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.android.material\\1.2.1.1\\xamarin.google.android.material.1.2.1.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\zxing.net.mobile\\3.0.0-beta5\\zxing.net.mobile.3.0.0-beta5.nupkg.sha512",
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\zxing.net.mobile.forms\\3.0.0-beta5\\zxing.net.mobile.forms.3.0.0-beta5.nupkg.sha512"
   ],
   "logs": []
 }

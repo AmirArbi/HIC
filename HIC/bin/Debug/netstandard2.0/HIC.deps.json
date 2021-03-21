@@ -14,7 +14,8 @@
           "Xamarin.CommunityToolkit": "1.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
-          "Xamarin.Forms.PancakeView": "2.3.0.759"
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "ZXing.Net.Mobile.Forms": "3.0.0-beta5"
         },
         "runtime": {
           "HIC.dll": {}
@@ -149,6 +150,34 @@
             "fileVersion": "2.0.1.0"
           }
         }
+      },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "dependencies": {
+          "Xamarin.Essentials": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ZXingNetMobile.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "lib/netstandard2.0/zxing.dll": {
+            "assemblyVersion": "0.16.5.0",
+            "fileVersion": "0.16.5.0"
+          }
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "dependencies": {
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.2012",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ZXing.Net.Mobile.Forms.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
       }
     }
   },
@@ -262,6 +291,20 @@
       "sha512": "sha512-TGVsLJuGd/PKlyhmcBxZnHhHqyhYppzyrdb2q/sy+S6dQYkeGM8A+HmIIHVhbi7r8Sjasa/HRBkOmTSYQOZzhQ==",
       "path": "xamarin.forms.pancakeview/2.3.0.759",
       "hashPath": "xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
+    },
+    "ZXing.Net.Mobile/3.0.0-beta5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlRphSYEiCc62vIcaX22z46kLnyLVqzYXuUk1aOtvtn8ZOLfQPuS43p73B1c/VLNnDbwrvZ+LhN2MGoxU+lWBg==",
+      "path": "zxing.net.mobile/3.0.0-beta5",
+      "hashPath": "zxing.net.mobile.3.0.0-beta5.nupkg.sha512"
+    },
+    "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T7V68m6c19KIjZnr59V9VxD6MW/r9VMrd5QD+JJPPEsedszFDAu0w7MkwxJHOsarHef6rTRBBHFrLe+QWDOG0w==",
+      "path": "zxing.net.mobile.forms/3.0.0-beta5",
+      "hashPath": "zxing.net.mobile.forms.3.0.0-beta5.nupkg.sha512"
     }
   }
 }

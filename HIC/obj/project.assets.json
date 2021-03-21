@@ -175,6 +175,34 @@
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {}
         }
+      },
+      "ZXing.Net.Mobile/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/ZXingNetMobile.dll": {},
+          "lib/netstandard2.0/zxing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ZXingNetMobile.dll": {},
+          "lib/netstandard2.0/zxing.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
+          "ZXing.Net.Mobile": "3.0.0-beta5"
+        },
+        "compile": {
+          "lib/netstandard2.0/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ZXing.Net.Mobile.Forms.dll": {}
+        }
       }
     }
   },
@@ -1093,6 +1121,69 @@
         "xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
         "xamarin.forms.pancakeview.nuspec"
       ]
+    },
+    "ZXing.Net.Mobile/3.0.0-beta5": {
+      "sha512": "xlRphSYEiCc62vIcaX22z46kLnyLVqzYXuUk1aOtvtn8ZOLfQPuS43p73B1c/VLNnDbwrvZ+LhN2MGoxU+lWBg==",
+      "type": "package",
+      "path": "zxing.net.mobile/3.0.0-beta5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid10.0/ZXingNetMobile.dll",
+        "lib/monoandroid10.0/ZXingNetMobile.pdb",
+        "lib/monoandroid10.0/zxing.dll",
+        "lib/monoandroid90/ZXingNetMobile.dll",
+        "lib/monoandroid90/ZXingNetMobile.pdb",
+        "lib/monoandroid90/zxing.dll",
+        "lib/netstandard2.0/ZXingNetMobile.dll",
+        "lib/netstandard2.0/ZXingNetMobile.pdb",
+        "lib/netstandard2.0/zxing.dll",
+        "lib/tizen40/ZXingNetMobile.dll",
+        "lib/tizen40/ZXingNetMobile.pdb",
+        "lib/tizen40/zxing.dll",
+        "lib/uap10.0.16299/ZXingNetMobile.dll",
+        "lib/uap10.0.16299/ZXingNetMobile.pdb",
+        "lib/uap10.0.16299/ZXingNetMobile.pri",
+        "lib/uap10.0.16299/ZXingNetMobile/ScanPage.xaml",
+        "lib/uap10.0.16299/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/uap10.0.16299/ZXingNetMobile/ZXingScannerControl.xaml",
+        "lib/uap10.0.16299/zxing.dll",
+        "lib/xamarinios10/ZXingNetMobile.dll",
+        "lib/xamarinios10/ZXingNetMobile.pdb",
+        "lib/xamarinios10/zxing.dll",
+        "lib/xamarinmac20/ZXingNetMobile.dll",
+        "lib/xamarinmac20/ZXingNetMobile.pdb",
+        "lib/xamarinmac20/zxing.dll",
+        "zxing.net.mobile.3.0.0-beta5.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/3.0.0-beta5": {
+      "sha512": "T7V68m6c19KIjZnr59V9VxD6MW/r9VMrd5QD+JJPPEsedszFDAu0w7MkwxJHOsarHef6rTRBBHFrLe+QWDOG0w==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/3.0.0-beta5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid10.0/ZXing.Net.Mobile.Forms.dll",
+        "lib/monoandroid10.0/ZXing.Net.Mobile.Forms.pdb",
+        "lib/monoandroid90/ZXing.Net.Mobile.Forms.dll",
+        "lib/monoandroid90/ZXing.Net.Mobile.Forms.pdb",
+        "lib/netstandard2.0/ZXing.Net.Mobile.Forms.dll",
+        "lib/netstandard2.0/ZXing.Net.Mobile.Forms.pdb",
+        "lib/tizen40/ZXing.Net.Mobile.Forms.dll",
+        "lib/tizen40/ZXing.Net.Mobile.Forms.pdb",
+        "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.dll",
+        "lib/uap10.0.16299/ZXing.Net.Mobile.Forms.pdb",
+        "lib/xamarinios10/ZXing.Net.Mobile.Forms.dll",
+        "lib/xamarinios10/ZXing.Net.Mobile.Forms.pdb",
+        "lib/xamarinmac20/ZXing.Net.Mobile.Forms.dll",
+        "lib/xamarinmac20/ZXing.Net.Mobile.Forms.pdb",
+        "zxing.net.mobile.forms.3.0.0-beta5.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1102,7 +1193,8 @@
       "Xamarin.CommunityToolkit >= 1.0.3",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
-      "Xamarin.Forms.PancakeView >= 2.3.0.759"
+      "Xamarin.Forms.PancakeView >= 2.3.0.759",
+      "ZXing.Net.Mobile.Forms >= 3.0.0-beta5"
     ]
   },
   "packageFolders": {
@@ -1177,6 +1269,10 @@
           "Xamarin.Forms.PancakeView": {
             "target": "Package",
             "version": "[2.3.0.759, )"
+          },
+          "ZXing.Net.Mobile.Forms": {
+            "target": "Package",
+            "version": "[3.0.0-beta5, )"
           }
         },
         "imports": [

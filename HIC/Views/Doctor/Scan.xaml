@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HIC.Views.Doctor.Scan" BackgroundColor="White"
+             xmlns:qr="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20" x:Name="stack">
+            <Frame CornerRadius="18" BackgroundColor="White" Padding="38" HasShadow="True">
+                <StackLayout VerticalOptions="Center">
+                    <Label Text="Scan QR Code" Style="{StaticResource Primary}" HorizontalOptions="Center" />
+                    <Label Text="Please position your card in front of &lt;br&gt;the camera, and adjust it until we read it." TextType="Html"  Style="{StaticResource Paragraph}" TextColor="LightGray" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="18" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <qr:ZXingScannerView x:Name="scanner" IsScanning="True" OnScanResult="scanner_OnScanResult"/>
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
