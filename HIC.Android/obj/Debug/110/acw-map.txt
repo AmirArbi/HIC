@@ -1,6 +1,9 @@
 HIC.Droid.MainActivity, HIC.Android;crc6451fdeda16b9bbe1b.MainActivity
 HIC.Droid.MainActivity;crc6451fdeda16b9bbe1b.MainActivity
 hic.droid.MainActivity;crc6451fdeda16b9bbe1b.MainActivity
+HIC.Droid.Renderers.OutlinedEntryRenderer, HIC.Android;crc64e9f75e96178ca112.OutlinedEntryRenderer
+HIC.Droid.Renderers.OutlinedEntryRenderer;crc64e9f75e96178ca112.OutlinedEntryRenderer
+hic.droid.renderers.OutlinedEntryRenderer;crc64e9f75e96178ca112.OutlinedEntryRenderer
 Plugin.Fingerprint.AuthenticationHandler, Plugin.Fingerprint;crc64e6d0b84c6264ccdd.AuthenticationHandler
 Plugin.Fingerprint.AuthenticationHandler;crc64e6d0b84c6264ccdd.AuthenticationHandler
 plugin.fingerprint.AuthenticationHandler;crc64e6d0b84c6264ccdd.AuthenticationHandler

@@ -1344,3 +1344,4 @@ C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC.Android\obj\Debug\110\android
 C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC.Android\obj\Debug\110\android\src\crc64eeb36180fe6023e2\SfEffectsViewRenderer.java
 C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC.Android\obj\Debug\110\android\src\crc64f606ab658bf2774f\SfShimmerRenderer.java
 C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC.Android\obj\Debug\110\android\src\crc64f606ab658bf2774f\ShimmerViewRenderer.java
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC.Android\obj\Debug\110\android\src\crc64e9f75e96178ca112\OutlinedEntryRenderer.java

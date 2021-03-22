@@ -7,8 +7,8 @@
              xmlns:er="clr-namespace:HIC.Renderers" >
     <ContentPage.Content>
         <Grid>
-            <Label Text="&#xe804;" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
-            <Label Text="&#xe804;" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="-27" Style="{StaticResource Dates}" Margin="-80,0,0,0" HorizontalOptions="Start" VerticalOptions="End"/>
+            <Label Text="&#xe802;" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
+            <Label Text="&#xe802;" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="-27" Style="{StaticResource Dates}" Margin="-80,0,0,0" HorizontalOptions="Start" VerticalOptions="End"/>
 
             <StackLayout Padding="20,20,20,0" Spacing="20" x:Name="stack">
                 <Frame CornerRadius="18" BackgroundColor="White" Padding="38" HasShadow="True">
@@ -26,10 +26,10 @@
                 <BoxView BackgroundColor="{StaticResource PrimaryColor}" Opacity="0.5"/>
                 <Frame CornerRadius="23" Margin="10,0" BorderColor="{StaticResource PrimaryColor}" VerticalOptions="Center">
                 <Grid>
-                    <Label Text="&#xe803;" FontFamily="Fontello" FontSize="160" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" HorizontalOptions="End" VerticalOptions="Start"/>
+                    <Label Text="&#xe804;" FontFamily="Fontello" FontSize="160" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" HorizontalOptions="End" VerticalOptions="Start"/>
                     <StackLayout Padding="30,20" Spacing="10">
                         <Label Text="Verify your identity" Style="{StaticResource Primary}" />
-                        <er:OutlinedEntry Placeholder="Enter your security code" PlaceholderColor="LightGray" HeightRequest="40" TextColor="Black" />
+                        <er:OutlinedEntry TextChanged="OutlinedEntry_TextChanged" Placeholder="Enter your security code" PlaceholderColor="LightGray" HeightRequest="40" TextColor="Black" />
                         <Label Text="You can identify using your digital fingerprint" Style="{StaticResource Paragraph}" TextColor="{StaticResource PrimaryColor}" TextDecorations="Underline">
                             <Label.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>

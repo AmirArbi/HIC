@@ -37,8 +37,8 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <Grid Background="{StaticResource PrimaryColor}">
-            <Label Text="&#xe807;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
-            <Label Text="&#xe807;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="-27" Style="{StaticResource Dates}" Margin="-80,0,0,0" HorizontalOptions="Start" VerticalOptions="End"/>
+            <Label Text="&#xe800;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
+            <Label Text="&#xe800;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="-27" Style="{StaticResource Dates}" Margin="-80,0,0,0" HorizontalOptions="Start" VerticalOptions="End"/>
             <StackLayout Padding="10,0" Margin="10,50,10,0">
                 <StackLayout Orientation="Horizontal">
                     <Label Text="History" Style="{StaticResource PrimaryBlue}" HorizontalOptions="StartAndExpand"/>
@@ -48,9 +48,9 @@
                 <Frame BackgroundColor="White" CornerRadius="12" Padding="5" Margin="0,20,0,0" HeightRequest="40">
                     <Button Text="Add note" Style="{StaticResource NoteButton}"></Button>
                 </Frame>
-                <ScrollView>
+                <ScrollView Margin="0,50,0,0">
                     <StackLayout>
-                        <Frame BackgroundColor="White" CornerRadius="12" Padding="0" Margin="0,50,0,0">
+                        <Frame BackgroundColor="White" CornerRadius="12" Padding="0" >
                             <Grid HeightRequest="50">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="2.5*"></ColumnDefinition>

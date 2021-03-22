@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HIC.Views.Patient.TabbedPage2"
+            xmlns:local="clr-namespace:HIC.Views.Patient"
+            xmlns:views="clr-namespace:HIC.Views"
+            xmlns:common="clr-namespace:HIC.Common;assembly=HIC"
+            BarBackgroundColor="{StaticResource PrimaryColor}"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarItemColor="#80FFFFFF"
+            android:TabbedPage.BarSelectedItemColor="White">
+    <!--Pages can be added as references or inline-->
+    <local:PatientHistory Title="History" x:Name="History"/>
+    <local:PatientProfil Title="Profile" x:Name="Profile"/>
+</TabbedPage>

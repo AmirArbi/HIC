@@ -37,3 +37,5 @@ C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\View
 C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Patient\PatientHistory.xaml.g.cs
 C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Patient\PatientProfil.xaml.g.cs
 C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\WorkingPage.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Doctor\LoginPage.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Patient\TabbedPage2.xaml.g.cs

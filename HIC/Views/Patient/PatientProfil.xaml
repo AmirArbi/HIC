@@ -6,14 +6,14 @@
     <ContentPage.Content>
         <ScrollView >
             <Grid >
-                <Label Text="&#xe807;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
-                <Label Text="&#xe807;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="-27" Style="{StaticResource Dates}" Margin="-80,0,0,0" HorizontalOptions="Start" VerticalOptions="End"/>
+                <Label Text="&#xe810;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label Text="&#xe810;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="-27" Style="{StaticResource Dates}" Margin="-80,0,0,0" HorizontalOptions="Start" VerticalOptions="End"/>
                 <StackLayout Margin="0,40" Spacing="-5">
                     <Label Text="Bilan de" Style="{StaticResource Paragraph}" Margin="20,0" FontSize="25" HorizontalOptions="StartAndExpand"/>
                     <Label Text="santé" Style="{StaticResource PrimaryBlue}" Margin="20,0" FontSize="25" HorizontalOptions="StartAndExpand" Padding="0"/>
                     <Frame BackgroundColor="White" CornerRadius="12" Margin="20,25,20,0" HeightRequest="80" >
                         <StackLayout Orientation="Horizontal">
-                            <pv:PancakeView CornerRadius="100" Margin="0,0,10,0" HorizontalOptions="FillAndExpand" >
+                            <pv:PancakeView CornerRadius="100" Margin="0,0,10,0" HeightRequest="110" WidthRequest="90" HorizontalOptions="FillAndExpand" >
                                 <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
                             </pv:PancakeView>
                             <StackLayout  VerticalOptions="Center">
@@ -28,7 +28,7 @@
                                 <Label Text="Alpha version" Style="{StaticResource Paragraph}" TextColor="#23408E" HorizontalOptions="End"></Label>
                                 <StackLayout Orientation="Horizontal">
                                     <Label Text="Lung cancer" Style="{StaticResource PrimaryBlue}" TextColor="#23408E" HorizontalOptions="Center" Margin="30,30,30,5" FontSize="30"></Label>
-                                    <Label Text="&#xe807;" HorizontalOptions="Center" VerticalOptions="Center"  FontFamily="Fontello" Style="{StaticResource Primary}" TextColor="#23408E" FontSize="16" ></Label>
+                                    <Label Text="&#xe808;" HorizontalOptions="Center" VerticalOptions="Center"  FontFamily="Fontello" Style="{StaticResource Primary}" TextColor="#23408E" FontSize="50" ></Label>
                                 </StackLayout>
                                 <Label Text="Lung cancer" Style="{StaticResource Paragraph}" TextColor="#23408E" HorizontalOptions="Center" Margin="0"></Label>
                                 <Grid Margin="0,20,0,5">

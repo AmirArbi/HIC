@@ -2,6 +2,7 @@
 using Xamarin.Forms.Xaml;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
+using HIC.Views.Patient;
 
 namespace HIC.Views.Doctor
 {
@@ -48,7 +49,7 @@ namespace HIC.Views.Doctor
             var finger = await CrossFingerprint.Current.AuthenticateAsync(request);
             if (finger.Authenticated)
             {
-                await DisplayAlert("Success", "You successfully identifiated yourself", "Done");
+                App.Current.MainPage = new Verification();
             }
             else
             {
@@ -65,6 +66,12 @@ namespace HIC.Views.Doctor
         {
             verification.IsVisible = !verification.IsVisible;
             scanner.IsScanning = !scanner.IsScanning;
+        }
+
+        private void OutlinedEntry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if((sender as Entry).Text == "123456")
+                App.Current.MainPage = new Verification();
         }
     }
 }
