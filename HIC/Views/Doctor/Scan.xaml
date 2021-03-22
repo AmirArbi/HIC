@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HIC.Views.Doctor.Scan" BackgroundColor="White"
              xmlns:qr="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
-             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
+             xmlns:er="clr-namespace:HIC.Renderers" >
     <ContentPage.Content>
         <Grid>
             <Label Text="&#xe804;" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
@@ -27,8 +28,8 @@
                 <Grid>
                     <Label Text="&#xe803;" FontFamily="Fontello" FontSize="160" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" HorizontalOptions="End" VerticalOptions="Start"/>
                     <StackLayout Padding="30,20" Spacing="10">
-                        <Label Text="Verify your identity" Style="{StaticResource Primary}" Margin="0,0,0,-15"/>
-                        <Entry Placeholder="Enter your security code" PlaceholderColor="LightGray" TextColor="Black" />
+                        <Label Text="Verify your identity" Style="{StaticResource Primary}" />
+                        <er:OutlinedEntry Placeholder="Enter your security code" PlaceholderColor="LightGray" HeightRequest="40" TextColor="Black" />
                         <Label Text="You can identify using your digital fingerprint" Style="{StaticResource Paragraph}" TextColor="{StaticResource PrimaryColor}" TextDecorations="Underline">
                             <Label.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>

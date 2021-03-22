@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HIC.Views.Doctor.Verification"
+             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             BackgroundColor="{StaticResource PrimaryColor}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" BaseResourceKey="Paragraph" x:Key="PatientParagraph">
+                <Setter Property="TextColor" Value="{StaticResource PrimaryColor}"/>
+                <Setter Property="FontSize" Value="18"/>
+            </Style>
+            <Style TargetType="Label" BaseResourceKey="BoldParagraph" x:Key="PatientBoldParagraph">
+                <Setter Property="TextColor" Value="{StaticResource PrimaryColor}"/>
+                <Setter Property="FontSize" Value="18"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <Label Text="?" TextColor="White" FontSize="300" FontFamily="Mont-800" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
+            <Label Text="?" TextColor="White" FontSize="300" FontFamily="Mont-800" Opacity="0.15" Rotation="-27" Style="{StaticResource Dates}" Margin="-80,0,0,0" HorizontalOptions="Start" VerticalOptions="End"/>
+            <ScrollView>
+            <StackLayout Margin="30,56,30,0">
+                <Grid>
+                    <pv:PancakeView Margin="0,85,0,0" BackgroundColor="White" CornerRadius="18">
+                        <StackLayout Padding="20,85,20,40">
+                            <Label Text="Houssem Hassou" Margin="0,0,0,20" FontFamily="Mont-800"  Style="{StaticResource Primary}" HorizontalTextAlignment="Center"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Name" Style="{StaticResource PatientBoldParagraph}" HorizontalOptions="StartAndExpand"/>
+                                <Label Text="Houssem" Style="{StaticResource PatientParagraph}" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Surname" Style="{StaticResource PatientBoldParagraph}" HorizontalOptions="StartAndExpand"/>
+                                <Label Text="Hassou" Style="{StaticResource PatientParagraph}" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Sex" Style="{StaticResource PatientBoldParagraph}" HorizontalOptions="StartAndExpand"/>
+                                <Label Text="Male" Style="{StaticResource PatientParagraph}" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Birthday" Style="{StaticResource PatientBoldParagraph}" HorizontalOptions="StartAndExpand"/>
+                                <Label Text="12/08/2011" Style="{StaticResource PatientParagraph}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </pv:PancakeView>
+                    <pv:PancakeView CornerRadius="130" HorizontalOptions="Center" VerticalOptions="Start" HeightRequest="150" WidthRequest="150" Padding="10" BackgroundColor="White">
+                        <pv:PancakeView CornerRadius="130" HorizontalOptions="Center" HeightRequest="150" WidthRequest="150" BackgroundColor="White">
+                            <Image Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" Aspect="AspectFill"/>
+                        </pv:PancakeView>
+                    </pv:PancakeView>
+                    
+                </Grid>
+                    <StackLayout Margin="30,20">
+                        <Label Text="Would you confirm the identity of this person?" HorizontalTextAlignment="Center" FontSize="20" Style="{StaticResource Paragraph}" />
+                        <Grid RowDefinitions="*,*" ColumnDefinitions="*,*" Margin="40,0">
+                            <Button Grid.Column="0" Text="No" Style="{StaticResource SecondaryButton}"/>
+                            <Button Grid.Column="1" Text="Yes" Style="{StaticResource SecondaryButton}"/>
+                             <Button Grid.Row="1" Grid.ColumnSpan="2" Text="I am not sure" Style="{StaticResource PrimaryButton}" BackgroundColor="{StaticResource PrimaryColor}"  BorderColor="White"/>
+                        </Grid>
+                        
+                    </StackLayout>
+                    
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

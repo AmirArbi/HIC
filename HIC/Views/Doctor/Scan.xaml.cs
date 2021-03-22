@@ -30,9 +30,9 @@ namespace HIC.Views.Doctor
             }
         }
 
-        private async void scanner_OnScanResult(ZXing.Result result)
+        private void scanner_OnScanResult(ZXing.Result result)
         {
-            Device.BeginInvokeOnMainThread(async () =>
+            Device.BeginInvokeOnMainThread(() =>
             {
                 if(result.BarcodeFormat == ZXing.BarcodeFormat.QR_CODE)
                 {

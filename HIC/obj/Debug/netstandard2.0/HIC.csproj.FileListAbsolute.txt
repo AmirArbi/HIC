@@ -32,3 +32,8 @@ E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\Views\Doctor\Histo
 E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\Views\Doctor\Scan.xaml.g.cs
 E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\Views\Patient\PatientHistory.xaml.g.cs
 E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\Views\Patient\PatientProfil.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Doctor\TabbedPage1.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Doctor\Verification.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Patient\PatientHistory.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\Patient\PatientProfil.xaml.g.cs
+C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\Views\WorkingPage.xaml.g.cs
