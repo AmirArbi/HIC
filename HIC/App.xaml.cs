@@ -10,7 +10,7 @@ namespace HIC
         {
             InitializeComponent();
 
-            MainPage = new Views.Patient.PatientHistory();
+            MainPage = new Views.Patient.PatientProfil();
         }
 
         protected override void OnStart()

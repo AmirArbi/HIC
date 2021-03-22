@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="HIC.Views.Patient.PatientProfil"
+             Background="#23408E">
+    <ContentPage.Content>
+        <ScrollView >
+            <Grid >
+                <Label Text="&#xe807;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="15" Style="{StaticResource Dates}" Margin="0,40,-80,0" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label Text="&#xe807;" TextColor="White" FontFamily="Fontello" FontSize="300" Opacity="0.15" Rotation="-27" Style="{StaticResource Dates}" Margin="-80,0,0,0" HorizontalOptions="Start" VerticalOptions="End"/>
+                <StackLayout Margin="0,40" Spacing="-5">
+                    <Label Text="Bilan de" Style="{StaticResource Paragraph}" Margin="20,0" FontSize="25" HorizontalOptions="StartAndExpand"/>
+                    <Label Text="santé" Style="{StaticResource PrimaryBlue}" Margin="20,0" FontSize="25" HorizontalOptions="StartAndExpand" Padding="0"/>
+                    <Frame BackgroundColor="White" CornerRadius="12" Margin="20,25,20,0" HeightRequest="80" >
+                        <StackLayout Orientation="Horizontal">
+                            <pv:PancakeView CornerRadius="100" Margin="0,0,10,0" HorizontalOptions="FillAndExpand" >
+                                <Image Aspect="AspectFill"  Source="https://img3.stockfresh.com/files/k/kurhan/m/94/387527_stock-photo-happy-people.jpg" BackgroundColor="Black"/>
+                            </pv:PancakeView>
+                            <StackLayout  VerticalOptions="Center">
+                                <Label Text="Houssem Hassou" Style="{StaticResource Primary}" HorizontalOptions="Start" VerticalOptions="Start" ></Label>
+                                <Label Text="23 ans. Male" Style="{StaticResource Paragraph}" FontSize="12" TextColor="#23408E" HorizontalOptions="Start" VerticalOptions="Start" ></Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                    <Grid Margin="0,30">
+                        <Frame BackgroundColor="White" HorizontalOptions="FillAndExpand">
+                            <StackLayout>
+                                <Label Text="Alpha version" Style="{StaticResource Paragraph}" TextColor="#23408E" HorizontalOptions="End"></Label>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Lung cancer" Style="{StaticResource PrimaryBlue}" TextColor="#23408E" HorizontalOptions="Center" Margin="30,30,30,5" FontSize="30"></Label>
+                                    <Label Text="&#xe807;" HorizontalOptions="Center" VerticalOptions="Center"  FontFamily="Fontello" Style="{StaticResource Primary}" TextColor="#23408E" FontSize="16" ></Label>
+                                </StackLayout>
+                                <Label Text="Lung cancer" Style="{StaticResource Paragraph}" TextColor="#23408E" HorizontalOptions="Center" Margin="0"></Label>
+                                <Grid Margin="0,20,0,5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="8">
+                                        <Label Text="After" Style="{StaticResource Paragraph}" TextColor="#23408E" FontSize="18"></Label>
+                                        <Label Text="35 years" Style="{StaticResource Primary}" TextColor="#23408E" FontSize="18"></Label>
+                                        <Label Text="&#xe806;" HorizontalOptions="Center" VerticalOptions="Center"  FontFamily="Fontello" Style="{StaticResource Primary}" TextColor="#23408E" FontSize="16" ></Label>
+                                    </StackLayout>
+                                    <Frame HorizontalOptions="Start"  Grid.Column="1"   Padding="0" WidthRequest="1" BackgroundColor="#DADADA" Opacity="0.5"></Frame>
+                                    <StackLayout Spacing="1" Grid.Column="1" HorizontalOptions="Center">
+                                        <Label Text="+ 45%" Style="{StaticResource Primary}" TextColor="#23408E" FontSize="25"></Label>
+                                        <Label Text="cancer growth" Style="{StaticResource Paragraph}" TextColor="#23408E" ></Label>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                        </Frame>
+
+                        <pv:PancakeView BackgroundColor="#23408E" HorizontalOptions="Start"  VerticalOptions="Start" CornerRadius="0,0,0,12" Padding="10">
+                            <Label Text="Prediction" Style="{StaticResource PrimaryBlue}"></Label>
+                        </pv:PancakeView>
+                    </Grid>
+                    <Label Text="General Information" Style="{StaticResource PrimaryBlue}" TextColor="White" Margin="20,0"></Label>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Frame Margin="5,25,0,2" Grid.ColumnSpan="5" CornerRadius="12" Padding="10">
+                            <StackLayout>
+                                <Label Text="Poids" Style="{StaticResource Paragraph}" TextColor="#23408E"></Label>
+                                <Label Text="80Kg" Style="{StaticResource Primary}" HorizontalOptions="Center" TextColor="#23408E" FontSize="30" VerticalOptions="Center" VerticalTextAlignment="Center" Margin="0,0,0,10"></Label>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.Column="5" Grid.ColumnSpan="5" CornerRadius="12" Padding="10" Margin="0,25,5,2">
+                            <StackLayout>
+                                <Label Text="Taille" Style="{StaticResource Paragraph}" TextColor="#23408E"></Label>
+                                <Label Text="182cm" Style="{StaticResource Primary}" HorizontalOptions="Center" TextColor="#23408E" FontSize="30" VerticalOptions="Center" VerticalTextAlignment="Center" Margin="0,0,0,10"></Label>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame Grid.ColumnSpan="3" Grid.Row="1" CornerRadius="12" Padding="10" Margin="5,2,0,0">
+                            <StackLayout>
+                                <Label Text="Groupe sanguin" Style="{StaticResource Paragraph}" TextColor="#23408E"></Label>
+                                <Label Text="A+" Style="{StaticResource Primary}" HorizontalOptions="Center" TextColor="#23408E" FontSize="30" VerticalOptions="Center" VerticalTextAlignment="Center" Margin="0,0,0,10"></Label>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.Column="3" Grid.ColumnSpan="7" Grid.Row="1" CornerRadius="12" Padding="10" Margin="0,2,5,0">
+                            <StackLayout>
+                                <Label Text="L'hématocrite" Style="{StaticResource Paragraph}" TextColor="#23408E"></Label>
+                                <Label Text="40%" Style="{StaticResource Primary}" HorizontalOptions="Center" TextColor="#23408E" FontSize="30" VerticalOptions="Center" VerticalTextAlignment="Center" Margin="0,0,0,10"></Label>
+                            </StackLayout>
+                        </Frame>
+
+                    </Grid>
+                    <StackLayout HeightRequest="40"></StackLayout>
+                    <Label Text="chronic diseases" Style="{StaticResource PrimaryBlue}" TextColor="White" Margin="20,0"></Label>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Frame Margin="5,25,0,2" CornerRadius="12" Padding="10">
+                            <StackLayout>
+                                <Label Text="Diabete" Style="{StaticResource Primary}" HorizontalOptions="Center" TextColor="#23408E" FontSize="30" VerticalOptions="Center" VerticalTextAlignment="Center" Margin="0,0,0,10"></Label>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.Column="1" CornerRadius="12" Padding="10" Margin="0,25,5,2">
+                            <StackLayout>
+                                <Label Text="Obesity" Style="{StaticResource Primary}" HorizontalOptions="Center" TextColor="#23408E" FontSize="30" VerticalOptions="Center" VerticalTextAlignment="Center" Margin="0,0,0,10"></Label>
+                            </StackLayout>
+                        </Frame>
+
+                    </Grid>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

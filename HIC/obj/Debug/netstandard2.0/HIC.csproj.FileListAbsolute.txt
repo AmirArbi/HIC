@@ -31,3 +31,4 @@ C:\Users\Utilisateur\source\repos\AmirArbi\HIC\HIC\obj\Debug\netstandard2.0\View
 E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\Views\Doctor\History.xaml.g.cs
 E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\Views\Doctor\Scan.xaml.g.cs
 E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\Views\Patient\PatientHistory.xaml.g.cs
+E:\amir\xamarin projects\HIC\HIC\HIC\obj\Debug\netstandard2.0\Views\Patient\PatientProfil.xaml.g.cs
