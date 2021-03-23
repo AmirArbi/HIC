@@ -10,7 +10,7 @@ namespace HIC
         {
             InitializeComponent();
 
-            MainPage = new Views.Doctor.TabbedPage1();
+            MainPage = new Views.Doctor.LoginPage();
 
         }
 

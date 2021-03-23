@@ -1,51 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HIC.Views.Doctor.LoginPage">
+             x:Class="HIC.Views.Doctor.LoginPage" BackgroundColor="White">
     <ContentPage.Resources>
         <Style TargetType="Frame" x:Key="EntryFrame">
-            <Setter Property="BorderColor" Value="#2ecc71"/>
+            <Setter Property="BorderColor" Value="{StaticResource PrimaryColor}"/>
             <Setter Property="CornerRadius" Value="25"/>
             <Setter Property="Padding" Value="0"/>
         </Style>
         <Style TargetType="Label" x:Key="Icon">
-            <Setter Property="TextColor" Value="#2ecc71"/>
+            <Setter Property="TextColor" Value="{StaticResource PrimaryColor}"/>
             <Setter Property="FontFamily" Value="segoe"/>
         </Style>
         <Style TargetType="Entry" x:Key="entry">
-            <Setter Property="TextColor" Value="#2ecc71"/>
+            <Setter Property="TextColor" Value="{StaticResource PrimaryColor}"/>
             <Setter Property="FontFamily" Value="OpenRegular"/>
         </Style>
     </ContentPage.Resources>
     <Grid>
         <StackLayout VerticalOptions="Center">
             <!--Lottie Animation-->
-            <Label Text="Bienvenue !" FontFamily="Opens" FontSize="Title" TextColor="#2ecc71" HorizontalOptions="Center"/>
-            <Label Text="Connectez vous à votre compte existant" FontFamily="LightOpens" TextColor="#2ecc71" HorizontalOptions="Center" Margin="0,0,0,10"/>
+            <Label Text="Welcome doctor fftk!" FontFamily="Opens" FontSize="Title" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center"/>
+            <Label Text="Connect to your existing account" FontFamily="LightOpens" TextColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" Margin="0,0,0,10"/>
             <Frame Style="{StaticResource EntryFrame}" Margin="20">
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="&#xE77B;" FontSize="20" Style="{StaticResource Icon}" Margin="20,15,5,15" />
-                    <Entry Text="{Binding Email}"  Placeholder="E-mail" Keyboard="Email" HorizontalOptions="FillAndExpand" PlaceholderColor="#2ecc71" Style="{StaticResource entry}" Margin="0,0,20,0">
+                    <Entry Text="{Binding Email}" Margin="20,15,5,15"  Placeholder="E-mail" Keyboard="Email" HorizontalOptions="FillAndExpand" PlaceholderColor="{StaticResource PrimaryColor}" Style="{StaticResource entry}">
 
                     </Entry>
                 </StackLayout>
             </Frame>
             <Frame Style="{StaticResource EntryFrame}" Margin="20,0,20,0">
                 <StackLayout Orientation="Horizontal">
-                    <Label Text="&#xE785;" FontSize="20" Style="{StaticResource Icon}" Margin="20,15,5,15" />
-                    <Entry Text="{Binding Password}"  Placeholder="Mot de passe" x:Name="Password" HorizontalOptions="FillAndExpand" IsPassword="True" PlaceholderColor="#2ecc71" Margin="0,0,20,0" Style="{StaticResource entry}"></Entry>
+                    <Entry Text="{Binding Password}" Margin="20,15,5,15" Placeholder="Password" x:Name="Password" HorizontalOptions="FillAndExpand" IsPassword="True" PlaceholderColor="{StaticResource PrimaryColor}" Style="{StaticResource entry}"></Entry>
                 </StackLayout>
             </Frame>
 
-            <Button Command="{Binding SubmitCommand}" Text="Login" BackgroundColor="#2ecc71" HorizontalOptions="Center" CornerRadius="25" WidthRequest="200" Margin="20"/>
-            <Label FontFamily="OpenRegular" FontSize="Small" VerticalOptions="EndAndExpand" HorizontalOptions="Center" Margin="0,70,0,0">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Vous n'avez pas de compte ?  " TextColor="#2ecc71"/>
-                        <Span Text="S'inscrire" TextColor="Blue"/>
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
+            <Button Command="{Binding SubmitCommand}" Text="Login" BackgroundColor="{StaticResource PrimaryColor}" HorizontalOptions="Center" CornerRadius="25" WidthRequest="200" Margin="20"/>
+
         </StackLayout>
         <ActivityIndicator IsRunning="{Binding Loading}" HorizontalOptions="Center" VerticalOptions="Center"/>
 
